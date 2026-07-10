@@ -65,8 +65,9 @@
     <!--  NAV  -->
     <nav id="navbar" class="nav-glass fixed top-0 left-0 right-0 z-50 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-            <a href="#home" class="font-display font-bold text-xl text-white tracking-tight">
-                KS<span class="text-violet-500">.</span>
+            <a href="#home" class="font-display font-bold text-xl text-white tracking-tight logo">
+                   <span class="logo-badge">KS</span>
+   
             </a>
             <!-- Desktop -->
             <div class="hidden md:flex items-center gap-8">
@@ -76,7 +77,8 @@
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
             <div class="hidden md:flex items-center gap-3">
-                <a href="resume/kuldeep resume (4).pdf" download="kuldeep resume (4).pdf" class="btn-ghost" style="padding:8px 18px; font-size:14px;">
+                <a href="resume/Kuldeep-Sisodiya-Resume.pdf" download="Kuldeep-Sisodiya-Resume.pdf" class="btn-ghost"
+                    style="padding:8px 18px; font-size:14px;">
                     <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <path
                             d="M12 15V3m0 12-4-4m4 4 4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17" />
@@ -192,7 +194,7 @@
                                     1+ Years</div>
                             </div>
                         </div>
-                        
+
                         <div style="position:absolute;top:-10px;left:-20px;background:#1a1a2e;border:1px solid #2a2a3e;border-radius:12px;padding:10px 16px;display:flex;align-items:center;gap:8px;box-shadow:0 8px 24px rgba(0,0,0,0.4);"
                             class="animate-float" style="animation-delay:1s">
                             <span style="font-size:22px">🚀</span>
@@ -283,7 +285,7 @@
                     </div>
 
                 </div>
-                <a href="resume/kuldeep resume (4).pdf" download="kuldeep resume (4).pdf" class="btn-primary">
+                <a href="resume/Kuldeep-Sisodiya-Resume.pdf" download="Kuldeep-Sisodiya-Resume.pdf" class="btn-primary">
                     <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <path
                             d="M12 15V3m0 12-4-4m4 4 4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17" />
@@ -334,8 +336,7 @@
                 <!-- Tooling -->
                 <div class="reveal reveal-delay-2 bg-[#3ad2ed15] border border-[#3ad2ed15] rounded-2xl p-7">
                     <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
-                        <div
-                            class="w-9 h-9 rounded-lg bg-[#3ad2ed23] flex items-center justify-center">
+                        <div class="w-9 h-9 rounded-lg bg-[#3ad2ed23] flex items-center justify-center">
                             <svg width="18" height="18" fill="none" stroke="#2EBED3" stroke-width="2"
                                 viewBox="0 0 24 24">
                                 <path
@@ -372,13 +373,15 @@
 
             <!-- Previous Button -->
             <button id="prevProject"
-                class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-5 z-20 w-10 h-10 rounded-full bg-[#1a1a2e] border border-[#2a2a3e] text-white hover:bg-violet-600 transition">
+                class="absolute button-effect left-0 top-1/2 -translate-y-1/2 -translate-x-5 z-20 w-10 h-10 rounded-full bg-[#1a1a2e] border border-[#2a2a3e] text-white transition">
                 ❮
             </button>
 
             <!-- Slider -->
             <div class="overflow-hidden py-5">
                 <div id="projectsSlider" class="flex transition-transform duration-500 ease-in-out">
+
+                    <!-- projects cards -->
 
                     <!-- project 1 -->
                     <div class="project-slide w-full md:w-1/2 lg:w-1/3 shrink-0 px-3">
@@ -426,16 +429,19 @@
                     <!-- project 2 -->
                     <div class="project-slide w-full md:w-1/2 lg:w-1/3 shrink-0 px-3">
                         <div class="project-card reveal reveal-delay-1">
-                            <div class="relative h-[180px] overflow-hidden bg-[#111118]">
+                            <div class="relative h-45 overflow-hidden bg-[#111118]">
                                 <img src="images/img2.png" alt="ldv"
                                     class="w-full h-full object-cover transition-transform duration-500 ease-out hover:scale-110">
                             </div>
                             <div class="p-5">
-                                <h3 class="font-display font-semibold text-white text-lg mb-2">Shopfront UI</h3>
-                                <p class="text-gray-500 text-sm leading-relaxed mb-3.5">
-                                    Full-featured e-commerce
-                                    storefront with tiktok live event sales products, just search products with the
-                                    product Id along with Stripe payments gateway.</p>
+                                <h3 class="font-display font-semibold text-white text-lg mb-2">La Dolce Vita</h3>
+                                <p class="text-gray-500 text-sm leading-relaxed mb-3.5 h-20 overflow-hidden">
+                                    Full-featured french based e-commerce
+                                    website with search products with the
+                                    product Id Ex: Cap-45 , FINAL90 along with Stripe payments gateway.
+                                    
+                                </p>
+
                                 <div class="flex flex-wrap gap-1.5 mb-4">
                                     <span class="skill-badge text-[11px] px-2.5 py-[3px]">React.js</span>
                                     <span class="skill-badge text-[11px] px-2.5 py-[3px]">Stripe
@@ -444,7 +450,7 @@
                                         CSS</span>
                                 </div>
                                 <div class="flex gap-2.5">
-                                    <a href="https://ladolcevita-website.netlify.app/"
+                                    <a href="https://ladolcevita.payonlive.com/"
                                         class="inline-flex items-center gap-1.5 text-[13px] font-semibold text-cyan-400 no-underline transition-colors duration-200 hover:text-white">
                                         <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"
                                             viewBox="0 0 24 24">
@@ -472,16 +478,15 @@
                                     class="w-full h-full object-cover transition-transform duration-500 ease-out hover:scale-110">
                             </div>
                             <div class="p-5">
-                                <h3 class="font-display font-semibold text-white text-lg mb-2">DevChat</h3>
-                                <p class="text-gray-500 text-sm leading-relaxed mb-3.5">Real-time
-                                    Full-featured e-commerce
-                                    storefront with cart, wishlist, Razer payments, and search product via name ,
+                                <h3 class="font-display font-semibold text-white text-lg mb-2">Wheels On Cart</h3>
+                                <p class="text-gray-500 text-sm leading-relaxed mb-3.5 ">Real-time
+                                    Full-featured india based e-commerce
+                                    website with cart, wishlist, Razer payments, and search product via name ,
                                     product catalogue.</p>
                                 <div class="flex flex-wrap gap-1.5 mb-4">
-                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">React</span>
-                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">Socket.io</span>
-                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">Node.js</span>
-                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">MongoDB</span>
+                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">React,js</span>
+                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">Tailwind CSS</span>
+                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">Axios</span>
                                 </div>
                                 <div class="flex gap-2.5">
                                     <a href="https://wheelsoncart-website-production.up.railway.app"
@@ -504,14 +509,91 @@
                         </div>
                     </div>
 
-                    <!-- Continue wrapping every project card like this -->
+                    <!-- project 4 -->
+                    <div class="project-slide w-full md:w-1/2 lg:w-1/3 shrink-0 px-3">
+                        <div class="project-card reveal reveal-delay-2">
+                            <div class="relative h-[180px] overflow-hidden bg-[#111118]">
+                                <img src="images/img4.png" alt="ldv"
+                                    class="w-full h-full object-cover transition-transform duration-500 ease-out hover:scale-110">
+                            </div>
+                            <div class="p-5">
+                                <h3 class="font-display font-semibold text-white text-lg mb-2">Shri Organic</h3>
+                                <p class="text-gray-500 text-sm leading-relaxed mb-3.5 ">
+                                    Fully responsive e-commerce storefront
+                                    website UI with intuitive navigation, product filtering, user authentication and
+                                    product catalogue.</p>
+                                <div class="flex flex-wrap gap-1.5 mb-4">
+                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">React,js</span>
+                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">Tailwind CSS</span>
+                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">Farmer Motion</span>
+                                </div>
+                                <div class="flex gap-2.5">
+                                    <a href="https://shri-organic-ui.netlify.app"
+                                        class="inline-flex items-center gap-1.5 text-[13px] font-semibold text-cyan-400 no-underline transition-colors duration-200 hover:text-white">
+                                        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3" />
+                                        </svg> Live demo
+                                    </a>
+                                    <a href="#"
+                                        class="inline-flex items-center gap-1.5 text-[13px] font-semibold text-gray-500 no-underline transition-colors duration-200 hover:text-white">
+                                        <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24">
+                                            <path
+                                                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+                                        </svg> GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- project 5 -->
+                    <div class="project-slide w-full md:w-1/2 lg:w-1/3 shrink-0 px-3">
+                        <div class="project-card reveal reveal-delay-2">
+                            <div class="relative h-[180px] overflow-hidden bg-[#111118]">
+                                <img src="images/img5.png" alt="ldv"
+                                    class="w-full h-full object-cover transition-transform duration-500 ease-out hover:scale-110">
+                            </div>
+                            <div class="p-5">
+                                <h3 class="font-display font-semibold text-white text-lg mb-2">Mosto UI</h3>
+                                <p class="text-gray-500 text-sm leading-relaxed mb-3.5 ">
+                                    Built a responsive SaaS landing page with HTML5, CSS3, Bootstrap 5, and JavaScript,
+                                    featuring interactive animations and cross-device layouts.
+                                </p>
+                                <div class="flex flex-wrap gap-1.5 mb-4">
+                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">HTML5</span>
+                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">CSS3</span>
+                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">Bootstrap 5</span>
+                                    <span class="skill-badge text-[11px] px-2.5 py-[3px]">Aos.js</span>
+                                </div>
+                                <div class="flex gap-2.5">
+                                    <a href="https://kuldeep-lab.github.io/Mosto-UI"
+                                        class="inline-flex items-center gap-1.5 text-[13px] font-semibold text-cyan-400 no-underline transition-colors duration-200 hover:text-white">
+                                        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3" />
+                                        </svg> Live demo
+                                    </a>
+                                    <a href="#"
+                                        class="inline-flex items-center gap-1.5 text-[13px] font-semibold text-gray-500 no-underline transition-colors duration-200 hover:text-white">
+                                        <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24">
+                                            <path
+                                                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+                                        </svg> GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
 
             <!-- Next Button -->
             <button id="nextProject"
-                class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-5 z-20 w-10 h-10 rounded-full bg-[#1a1a2e] border border-[#2a2a3e] text-white hover:bg-violet-600 transition">
+                class="absolute button-effect right-0 top-1/2 -translate-y-1/2 translate-x-5 z-20 w-10 h-10 rounded-full bg-[#1a1a2e] border border-[#2a2a3e] text-white  transition">
                 ❯
             </button>
 
@@ -559,7 +641,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="https://www.linkedin.com/in/kuldeep-sisodiya" target="_blank"
+                        <a href="https://www.linkedin.com/in/kuldeepsisodiya22" target="_blank"
                             class="flex items-center gap-3.5 px-5 py-4 bg-[#3ad2ed15] border border-[#3ad2ed15] rounded-xl no-underline transition-colors duration-200 hover:border-cyan-400">
                             <div
                                 class="w-10 h-10 shrink-0 rounded-lg bg-violet-600/15 flex items-center justify-center">
@@ -571,7 +653,7 @@
                             <div>
                                 <div class="mb-0.5 text-xs text-gray-500">LinkedIn</div>
                                 <div class="text-sm font-medium text-gray-200">
-                                    www.linkedin.com/in/kuldeep-sisodiya
+                                    www.linkedin.com/in/kuldeepsisodiya22
                                 </div>
                             </div>
                         </a>
@@ -635,8 +717,8 @@
     <!--  FOOTER  -->
     <footer class="border-t border-[#2a2a3e] py-6">
         <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-            <div class="font-display font-bold text-lg text-white">KS
-                <span class="text-violet-500">.</span>
+            <div class="font-display font-bold text-lg text-white logo">
+                   <span class="logo-badge">KS</span>
             </div>
             <div class="text-sm text-gray-600">
                 © 2026 Kuldeep Sisodiya. All rights reserved.
@@ -650,7 +732,7 @@
                     </svg>
                 </a>
 
-                <a href="https://www.linkedin.com/in/kuldeep-sisodiya" target="_blank"
+                <a href="https://www.linkedin.com/in/kuldeepsisodiya22" target="_blank"
                     class="text-gray-500 transition-colors duration-200 hover:text-cyan-400" aria-label="LinkedIn">
                     <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
                         <path
